@@ -1,0 +1,245 @@
+/* General config */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #ffbf00;
+    font-family: 'Encode Sans', sans-serif;
+    height: 100vh;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: white;
+    
+}
+
+h1 {
+    max-width: 120px;
+    height: 60px;
+    object-fit: contain;
+    margin: 0px;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-weight: bold;
+    max-width: 250px;
+    text-decoration: 1px underline white;
+    text-underline-offset: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    width: fit-content;
+    text-align: center;
+}
+
+p {
+    margin: 0px;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    padding: 20px;
+    background-color: rgba(255, 175, 15, 0.7);
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #37bbed;
+    height: auto;
+    padding: 5px 20px;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    font-size: 50px;
+    padding-right: 20px;
+    color: whitesmoke;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Body */
+
+.lion-container {
+    box-sizing: border-box;
+    height: auto;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffbf00;
+    margin: 80px;
+}
+
+.lion-container img {
+    width: 400px;
+    height: auto;
+}
+
+.name {
+    font-size: 65px;
+    font-family: 'Charm', cursive;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 35px;
+    font-family: 'Charm', cursive;
+}
+
+/* Profile */
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 0px auto;
+    padding: 100px;
+    border-top: 1px solid #ffbf00;
+}
+
+.about-me {
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 50px;
+    border: 1px solid #ffbf00;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 250px;
+    height: auto;
+    margin: 50px auto;
+    margin-top: 0px;
+    border-radius: 100%;
+}
+
+/* Experience */
+
+.experience-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.experience-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.title-experience {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: 1px underline white;
+    text-underline-offset: 5px;
+    margin-bottom: 10px;
+}
+
+.subtitle-experience {
+    font-weight: bolder;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.experience-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 50px;
+    padding: 25px;
+    border: 1px solid #ffbf00;
+}
+
+/* Education */
+
+.education-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.education-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.title-education {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: 1px underline white;
+    text-underline-offset: 5px;
+    margin-bottom: 10px;
+}
+
+.subtitle-education {
+    font-weight: bolder;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.education-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 50px;
+    padding: 25px;
+    border: 1px solid #ffbf00;
+}
+
+/* {color: #db8e48} */
